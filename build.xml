@@ -7,6 +7,7 @@
 		<mkdir dir="build" />
 		<delete dir="testReport" />
 		<mkdir dir="testReport" />
+		<mkdir dir="dist" />
 	</target>
 
 	<!-- Define the classpath which includes the junit.jar and the classes after 
