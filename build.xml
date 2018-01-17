@@ -3,9 +3,9 @@
 	<property name="build2" location="build" />
 
 	<target name="clean">
-		<delete dir="build" />
+<!-- 		<delete dir="build" /> -->
 		<mkdir dir="build" />
-		<delete dir="testReport" />
+<!-- 		<delete dir="testReport" /> -->
 		<mkdir dir="testReport" />
 	</target>
 
@@ -30,7 +30,7 @@
 		<junit printsummary="yes">
 			<classpath refid="junit.class.path" />
 			<formatter type="xml" />
-<!-- 			<test name="Jenkins_Test.Module_A_Test" todir="testReport" /> -->
+			<test name="Jenkins_Test.Module_A_Test" todir="testReport" />
 			<test name="Jenkins_Test.Module_B_Test" todir="testReport" /> 
 		</junit>
 
