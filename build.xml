@@ -25,7 +25,7 @@
 
 	</target>
 
-	<target name="test" depends="compile">
+<!-- 	<target name="test" depends="compile">
 
 		<junit printsummary="yes">
 			<classpath refid="junit.class.path" />
@@ -34,12 +34,11 @@
 			<test name="Jenkins_Test.Module_B_Test" todir="testReport" /> 
 		</junit>
 
-	</target>
+	</target> -->
 
 
-	<target name="main" depends="clean,compile,test" />
+<!-- 	<target name="main" depends="clean,compile,test" /> -->
 
-
-
+	<target name="main" depends="clean,compile" />
 
 </project>
