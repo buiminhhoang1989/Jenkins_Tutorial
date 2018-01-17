@@ -11,7 +11,7 @@ public class Module_B_Test {
 
 		Module_B module_b = new Module_B();
 
-		assertEquals("This should return Two", -2, module_b.return_two());
+		assertEquals("This should return Two", 2, module_b.return_two());
 	}
 
 }
