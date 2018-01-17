@@ -30,8 +30,8 @@
 		<junit printsummary="yes">
 			<classpath refid="junit.class.path" />
 			<formatter type="xml" />
-<!-- 			<test name="Jenkins_Test.Module_A_Test" todir="testReport" />
-			<test name="Jenkins_Test.Module_B_Test" todir="testReport" /> -->
+<!-- 			<test name="Jenkins_Test.Module_A_Test" todir="testReport" /> -->
+			<test name="Jenkins_Test.Module_B_Test" todir="testReport" /> 
 		</junit>
 
 	</target>
